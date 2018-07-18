@@ -1,13 +1,13 @@
 {
     "type": "object",
-    "title": "event_article",
+    "title": "data_article",
     "self": {
         "vendor": "com.businessoffashion",
-        "name": "event_article",
+        "name": "data_article",
         "format": "jsonschema",
         "version": "1-0-0"
     },
-    "required": ["article_id"],
+    "required": ["article_id", "slug", "category_slug"],
     "properties": {
         "article_id": {
             "type": "integer",
