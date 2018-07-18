@@ -1,0 +1,56 @@
+{
+    "type": "object",
+    "title": "data_user",
+    "self": {
+        "vendor": "com.businessoffashion",
+        "name": "data_user",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "required": ["user_id"],
+    "properties": {
+        "user_id": {
+            "type": "number",
+            "maximum": 9223372036854776000,
+            "minimum": 0
+        },
+        "membership_type": {
+            "type": "string",
+            "maxLength": 50
+        },
+        "is_member": {
+            "type": "boolean"
+        },
+        "has_membership_payment_error": {
+            "type": "boolean"
+        },
+        "title": {
+            "type": "string"
+        },
+        "country_id": {
+            "type": "integer",
+            "maximum": 9223372036854776000,
+            "minimum": 0
+        },
+        "city_id": {
+            "type": "integer",
+            "maximum": 9223372036854776000,
+            "minimum": 0
+        },
+        "job_title_id": {
+            "type": "integer",
+            "maximum": 9223372036854776000,
+            "minimum": 0
+        },
+        "job_level_id": {
+            "type": "integer",
+            "maximum": 1000,
+            "minimum": 0
+        },
+        "job_responsibility_id": {
+            "type": "integer",
+            "maximum": 1000,
+            "minimum": 0
+        }
+    }
+}
