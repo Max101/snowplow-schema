@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "title": "data_profile_organisation",
+    "self": {
+        "vendor": "com.businessoffashion",
+        "name": "data_profile_organisation",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "required": ["profile_id", "type"],
+    "properties": {
+        "profile_id": {
+            "type": "number",
+            "maximum": 9223372036854776000,
+            "minimum": 0
+        },
+        "title": {
+            "type": "string"
+        },
+        "profile_slug": {
+        	"type": "string"
+        },
+        "organisation_type": {
+        	"type": "string"
+        }
+    }
+}

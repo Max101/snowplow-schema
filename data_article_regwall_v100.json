@@ -1,0 +1,30 @@
+{
+    "type": "object",
+    "title": "data_article_regwall",
+    "self": {
+        "vendor": "com.businessoffashion",
+        "name": "data_article_regwall",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "required": ["article_id", "type"],
+    "properties": {
+        "article_id": {
+            "type": "integer",
+            "maximum": 9223372036854776000,
+            "minimum": 0
+        },
+        "type": {
+            "enum": ["popup", "redirect"]
+        },
+        "version": {
+            "type": "string"
+        },
+        "access_type": {
+            "type": "string"
+        },
+        "access_type_ruleset": {
+            "type": "string"
+        },
+    }
+}
