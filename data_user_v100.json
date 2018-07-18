@@ -16,7 +16,7 @@
         },
         "membership_type": {
             "type": "string",
-            "maxLength": 50
+            "maxLength": 250
         },
         "is_member": {
             "type": "boolean"
@@ -44,12 +44,12 @@
         },
         "job_level_id": {
             "type": "integer",
-            "maximum": 1000,
+            "maximum": 9223372036854776000,
             "minimum": 0
         },
         "job_responsibility_id": {
             "type": "integer",
-            "maximum": 1000,
+            "maximum": 9223372036854776000,
             "minimum": 0
         }
     }
